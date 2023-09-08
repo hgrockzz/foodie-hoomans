@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+  color: azure;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 0;
+  position: fixed;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.621);
+  border-radius: 10px;
+}
+.nav a {
+  text-decoration: none;
+  color: azure;
+}
+
+.foodItems {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards {
+  width: 100%;
+  margin-top: 30px;
+}
+.cards img {
+  width: 90%;
+  border-radius: 20px;
+  margin-bottom: -10px;
+}
